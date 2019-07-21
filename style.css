@@ -367,7 +367,7 @@ body {
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
-   min-height: 100vh;
+   height: 100vh;
    font-family: 'Roboto', sans-serif;
 }
 
@@ -377,15 +377,19 @@ html {
 }
 
 .materialContainer {
-   width: 100%;
+   width: 50%;
+   height: auto;
+   max-height: 550px;
    max-width: 460px;
    position: absolute;
-   top: 50%;
+   top: 40%;
    left: 50%;
    transform: translate(-50%, -50%);
    -webkit-transform: translate(-50%, -50%);
    -ms-transform: translate(-50%, -50%);
 }
+
+
 
 *,
 *:after,
